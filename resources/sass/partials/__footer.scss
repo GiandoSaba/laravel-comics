@@ -1,0 +1,120 @@
+.footer-card {
+    background-color: $brand-font-color;
+    color: white;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 3em 0;
+
+        .footer-card-item {
+            display: flex;
+            align-items: center;
+            margin-right: 2.5em;
+
+            img {
+                height: 50px;
+                margin-right: 1em;
+            }
+
+            span {
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.footer-main-content {
+    background-image: url(../../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .footer-link {
+            flex-basis: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1em 0;
+
+            .link-col {
+                margin-right: 2em;
+
+                h3 {
+                    margin-top: 1.5em;
+                    margin-bottom: 0.5em;
+                    color: white;
+                }
+
+                ul {
+                    list-style: none;
+
+                    li {
+                        line-height: 2em;
+                        font-size: 0.8em;
+                        color: lightgray;
+                    }
+                }
+            }
+
+            .cookie {
+                flex-basis: 100%;
+                padding: 1em 0;
+
+                p {
+                    line-height: 2em;
+                    font-size: 0.8em;
+                    color: lightgray;
+
+                    span {
+                        color: $brand-font-color;
+                    }
+                }
+            }
+        }
+
+        .footer-img {
+            flex-basis: 50%;
+            height: 465px;
+            overflow: hidden;
+
+            img {
+                position: relative;
+                bottom: 10%;
+            }
+        }
+
+    }
+}
+
+.footer-bottom {
+    background-color: #303030;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em 0;
+
+        .sign-up {
+            border: 2px solid $brand-font-color;
+            padding: 1em;
+
+            h2 {
+                font-size: 1em;
+                color: white;
+            }
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+        }
+    }
+}
