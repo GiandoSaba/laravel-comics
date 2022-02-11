@@ -76,13 +76,22 @@ html {
   width: 100%;
   height: 4px;
   position: absolute;
-  top: 50px;
+  top: 65px;
   left: 0;
   background-color: #0282f9;
 }
 
+.header-menu .container nav ul i {
+  font-size: 0.8em;
+  color: #0282f9;
+}
+
 .header-menu .container .search {
   border-bottom: 2px solid #0282f9;
+}
+
+.header-menu .container .search i {
+  font-size: 1.2em;
 }
 
 .header-menu .container .search input {
@@ -115,7 +124,66 @@ html {
   color: black;
 }
 
-.header-menu .container i {
-  font-size: 1.2em;
+.jumbotron {
+  width: 100%;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 400px;
+  position: relative;
+}
+
+.jumbotron h1 {
+  position: absolute;
+  top: 100%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 1.8em;
+  background-color: #0282f9;
+  padding: 0.3em 0.8em;
+}
+
+.main-content {
+  background-color: #1c1c1c;
+  padding-top: 3em;
+  padding-bottom: 1.5em;
+}
+
+.main-content .container.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-content .container.cards .card {
+  width: 16.6666666667%;
+  margin-bottom: 1.5em;
+}
+
+.main-content .container.cards .card .img-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.main-content .container.cards .card h1 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: normal;
+  font-size: 0.8em;
+  padding: 1.5em 0;
+}
+
+.main-content .more-content {
+  text-align: center;
+}
+
+.main-content .more-content h2 {
+  display: inline-block;
+  color: white;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  background-color: #0282f9;
+  padding: 0.8em 2.5em;
 }
 
