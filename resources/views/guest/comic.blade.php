@@ -43,6 +43,75 @@
             </div>
         </div>
     </div>
+    <div class="talent_spec bg-grey">
+        <div class="d-flex container-talent">
+            <div class="talent">
+                <h2>Talent</h2>
+                <hr>
+                <div class="d-flex">
+                    <div class="title">Art by:</div>
+
+                    <div class="description">
+                        @foreach ($comic['artists'] as $artist)
+                            {{ $artist }},
+                        @endforeach
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex">
+                    <div class="title">Written by:</div>
+                    <div class="description">
+                         @foreach ($comic['writers'] as $writer)
+                            {{ $writer }},
+                        @endforeach
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="specs">
+                <h2>Specs</h2>
+                <hr>
+                <div class="d-flex">
+                    <div class="title">Series:</div>
+                    <div class="description">{{ $comic['series'] }}</div>
+                </div>
+                <hr>
+                <div class="d-flex">
+                    <div class="title">U.S. Price:</div>
+                    <div class="description">{{ $comic['price'] }}</div>
+                </div>
+                <hr>
+                <div class="d-flex">
+                    <div class="title">On Sale Date:</div>
+                    <div class="description">{{ $comic['sale_date'] }}</div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="shop-ico bg-grey">
+        <div class="container-shop d-flex">
+            <div class="d-flex">
+                <h3>DIGITAL COMICS</h3>
+                <img src="{{asset('img/cta-phone.png')}}" alt="phone">
+            </div>
+            <div class="d-flex">
+                <h3>SHOP DC</h3>
+                <img src="{{asset('img/cta-card.png')}}" alt="card">
+
+            </div>
+            <div class="d-flex">
+                <h3>COMIC SHOP LOCATOR</h3>
+                <img src="{{asset('img/cta-locator.png')}}" alt="locator">
+
+            </div>
+            <div class="d-flex">
+                <h3>SUBSCRIPTION</h3>
+                <img src="{{asset('img/cta-tshirt.png')}}" alt="tshirt">
+
+            </div>
+        </div>
+    </div>
   </main>
 @endsection
 

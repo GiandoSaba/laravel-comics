@@ -23,6 +23,10 @@ html {
   color: white;
 }
 
+.bg-grey {
+  background-color: #F6F6F6;
+}
+
 .header-top {
   background-color: #0282f9;
   color: white;
@@ -254,7 +258,7 @@ html {
 
 .content {
   width: 60%;
-  margin: 150px auto 0;
+  margin: 150px auto 50px;
   color: black;
 }
 
@@ -301,6 +305,56 @@ html {
   font-weight: bold;
   color: grey;
   margin-bottom: 0.5em;
+}
+
+.talent_spec .container-talent {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 5em;
+}
+
+.talent_spec .container-talent > div {
+  flex-basis: 50%;
+  margin-right: 1.5em;
+}
+
+.talent_spec .container-talent > div h2 {
+  color: black;
+  margin: 1em 0;
+}
+
+.talent_spec .container-talent > div .d-flex {
+  padding: 1em 0;
+}
+
+.talent_spec .container-talent > div .d-flex .title {
+  flex-basis: 30%;
+  color: grey;
+}
+
+.talent_spec .container-talent > div .d-flex .description {
+  flex-basis: 70%;
+  color: #0282f9;
+}
+
+.shop-ico {
+  border-top: 1px solid lightgray;
+}
+
+.shop-ico .container-shop {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.shop-ico .container-shop .d-flex {
+  width: calc(25% - 1em);
+  justify-content: space-between;
+  padding: 1em;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgrey;
+  color: lightgrey;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 
 .footer-card {

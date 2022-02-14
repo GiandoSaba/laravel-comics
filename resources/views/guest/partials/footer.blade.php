@@ -1,28 +1,4 @@
 <header>
-    <div class="footer-card">
-        <div class="container">
-            <div class="footer-card-item">
-                <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="buy-comics-digital-comics">
-                <span>Digital Comics</span>
-            </div>
-            <div class="footer-card-item">
-                <img src="{{asset('img/buy-comics-merchandise.png')}}" alt="buy-comics-merchandise">
-                <span>DC Merchandise</span>
-            </div>
-            <div class="footer-card-item">
-                <img src="{{asset('img/buy-comics-subscriptions.png')}}" alt="buy-comics-subscriptions">
-                <span>subscriptions</span>
-            </div>
-            <div class="footer-card-item">
-                <img src="{{asset('img/buy-comics-shop-locator.png')}}" alt="buy-comics-shop-locator">
-                <span>comic shop locator</span>
-            </div>
-            <div class="footer-card-item">
-                <img src="{{asset('img/buy-dc-power-visa.svg')}}" alt="buy-dc-power-visa">
-                <span>dc power visa</span>
-            </div>
-        </div>
-    </div>
     <div class="footer-main-content">
         <div class="container">
             <div class="footer-link">
