@@ -12,7 +12,7 @@
     <div class="header-menu">
         <div class="container">
             <div class="logo">
-                <img src="{{asset('img/dc-logo.png')}}" alt="Logo">
+                <a href="/"><img src="{{asset('img/dc-logo.png')}}" alt="Logo"></a>
             </div>
             <nav>
                 <ul>

@@ -6,7 +6,7 @@
 
 @section('content')
   <main>
-    <div class="jumbotron">
+    <div class="jumbotron_home">
         <div class="container">
             <h1>CURRENT SERIES</h1>
         </div>
@@ -16,7 +16,7 @@
             @foreach ($comics as $comic)
             <div class="card">
                 <div class="img-container">
-                    <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+                    <a href="/comic/{{$comic['id']}}"><img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}"></a>
                 </div>
                 <h1>{{ $comic['series'] }}</h1>
             </div>

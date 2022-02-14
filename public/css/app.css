@@ -15,6 +15,14 @@ html {
   margin: 0 auto;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.white {
+  color: white;
+}
+
 .header-top {
   background-color: #0282f9;
   color: white;
@@ -124,7 +132,7 @@ html {
   color: black;
 }
 
-.jumbotron {
+.jumbotron_home {
   width: 100%;
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
   background-repeat: no-repeat;
@@ -134,7 +142,7 @@ html {
   position: relative;
 }
 
-.jumbotron h1 {
+.jumbotron_home h1 {
   position: absolute;
   top: 100%;
   transform: translateY(-50%);
@@ -185,6 +193,114 @@ html {
   text-transform: uppercase;
   background-color: #0282f9;
   padding: 0.8em 2.5em;
+}
+
+.jumbotron_comic {
+  width: 100%;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 400px;
+  position: relative;
+}
+
+.jumbotron_comic .blue_bottom {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  top: 100%;
+  background-color: #0282f9;
+}
+
+.jumbotron_comic .thumb_comic {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 20%;
+}
+
+.jumbotron_comic .thumb_comic .image {
+  width: 192px;
+  height: 291px;
+}
+
+.jumbotron_comic .thumb_comic .image img {
+  width: 100%;
+  border: 1px solid white;
+}
+
+.jumbotron_comic .thumb_comic .image .abs {
+  position: absolute;
+  left: 0;
+  color: white;
+  background-color: #00a9d9;
+  z-index: 1;
+  padding: 2px;
+  font-size: 0.8em;
+}
+
+.jumbotron_comic .thumb_comic .image .abs.title {
+  top: 2px;
+  left: 2px;
+}
+
+.jumbotron_comic .thumb_comic .image .abs.bottom_text {
+  width: 190px;
+  text-align: center;
+  bottom: 2px;
+  left: 1px;
+}
+
+.content {
+  width: 60%;
+  margin: 150px auto 0;
+  color: black;
+}
+
+.content .box_info .info {
+  margin-right: 3em;
+}
+
+.content .box_info .info h1 {
+  text-transform: uppercase;
+  font-size: 1.8em;
+}
+
+.content .box_info .info .price {
+  width: 100%;
+  background-color: #55ba59;
+  color: #bafd9c;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.content .box_info .info .price .w-60 {
+  flex-basis: 75%;
+  justify-content: space-between;
+  padding: 1em;
+  border: 1px solid rgba(41, 41, 41, 0.801);
+}
+
+.content .box_info .info .price .w-40 {
+  flex-basis: 25%;
+  padding: 1em 0.3em;
+  border: 1px solid rgba(41, 41, 41, 0.801);
+}
+
+.content .box_info .info .description {
+  color: grey;
+  font-weight: bold;
+  line-height: 2em;
+  font-size: 1em;
+}
+
+.content .adv span {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  color: grey;
+  margin-bottom: 0.5em;
 }
 
 .footer-card {
